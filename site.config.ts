@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Spillover',
-  domain: 'https://spillover-blog.vercel.app/',
+  domain: 'https://spillover-blog.vercel.app',
   author: 'Spillover',
 
   // open graph metadata (optional)
