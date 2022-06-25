@@ -2,24 +2,22 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: 'db337fded62442efbff99efa678931a2',
+  rootNotionPageId: 'c32c7d410c5544ba830d6b0afcc43195',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Dabid',
-  domain: 'nextjs-blog-hanalia.vercel.app/',
-  author: 'David Jeong',
+  name: 'Spillover',
+  domain: 'https://spillover-blog.vercel.app//',
+  author: 'Spillover',
 
   // open graph metadata (optional)
   // description: 'I love data',
 
   // social usernames (optional)
-  // twitter: 'hanalia',
-  github: 'hanalia',
-  linkedin: 'seuk-yoon-jeong-053a2510b',
+  github: 'spillover2022',
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
@@ -29,7 +27,7 @@ export default siteConfig({
 
 
   // Utteranc.es comments via GitHub issue comments (optional)
-  utterancesGitHubRepo: 'Hanalia/nextjs-blog',
+  utterancesGitHubRepo: 'Spillover2022/spillover-blog',
 
   // whether or not to enable support for LQIP preview images (optional)
   isPreviewImageSupportEnabled: true,
