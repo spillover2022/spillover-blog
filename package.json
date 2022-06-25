@@ -7,7 +7,7 @@
   "repository": "spillover2022/spillover-blog",
   "license": "MIT",
   "engines": {
-    "node": "14.19.0"
+    "node": ">=14.17"
   },
   "scripts": {
     "dev": "next dev",
@@ -29,15 +29,12 @@
     "@keyvhq/core": "^1.6.9",
     "@keyvhq/redis": "^1.6.10",
     "@react-icons/all-files": "^4.1.0",
-    "chrome-aws-lambda": "^10.1.0",
     "classnames": "^2.3.1",
     "date-fns": "^2.28.0",
     "expiry-map": "^2.0.0",
     "fathom-client": "^3.4.1",
     "got": "^12.0.3",
     "isomorphic-unfetch": "^3.1.0",
-    "lodash": "^4.17.21",
-    "lodash.omit": "^4.5.0",
     "lqip-modern": "^1.2.0",
     "next": "^12.1.1",
     "next-api-og-image": "^2.2.1",
@@ -54,8 +51,7 @@
     "react-notion-x": "^6.12.7",
     "react-tweet-embed": "^2.0.0",
     "react-use": "^17.3.2",
-    "rss": "^1.2.2",
-    "vercel": "^24.2.1"
+    "rss": "^1.2.2"
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^12.1.0",
@@ -79,8 +75,8 @@
   },
   "overrides": {
     "next-api-og-image": {
-      "chrome-aws-lambda": "^6.0.0",
-      "puppeteer-core": "^6.0.0"
+      "chrome-aws-lambda": "6.0.0",
+      "puppeteer-core": "6.0.0"
     },
     "cacheable-request": {
       "keyv": "npm:@keyvhq/core@~1.6.6"
