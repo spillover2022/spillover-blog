@@ -14,7 +14,7 @@ export default siteConfig({
   author: 'Spillover',
 
   // open graph metadata (optional)
-  description: 'I love data',
+  description: '스필오버 블로그입니다.',
 
   // social usernames (optional)
   github: 'spillover2022',
